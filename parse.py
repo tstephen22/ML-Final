@@ -9,7 +9,7 @@ db_2019_q2 = pd.read_csv('dublinbikes_20190401_20190701.csv')
 db_2019_q3 = pd.read_csv('dublinbikes_20190701_20191001.csv')
 db_2019_q4 = pd.read_csv('dublinbikes_20191001_20200101.csv')
 
-dbs = [db_2018_q3, db_2018_q4, db_2019_q1, db_2019_q2, db_2019_q3, db_2019_q4]
+dbs = [db_2019_q2, db_2019_q3, db_2019_q4]
 
 #Concatenating 
 dataset = pd.concat(
